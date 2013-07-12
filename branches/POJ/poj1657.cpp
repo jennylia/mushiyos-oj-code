@@ -1,5 +1,5 @@
 /*Filename: poj1657.cpp
- *Author: User
+ *Author: Mushiyo
  */
 
 #include <iostream>
