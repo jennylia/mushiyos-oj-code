@@ -1,6 +1,6 @@
 /*Filename: struct.cpp
  *Author: Mushiyo
- *Usage: Demostrate how to manipulate the struct data type
+ *Usage: Demonstrate how to manipulate the struct data type
  */
 
 #include <iostream>

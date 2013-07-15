@@ -1,5 +1,3 @@
-//RE
-
 /*Filename: ntuj0685.cpp
  *Author: Mushiyo
  */
@@ -8,8 +6,6 @@
 #include <vector>
 
 using namespace std;
-
-
 
 struct Edge{
 	int S;
@@ -20,6 +16,7 @@ const int vNum = 1000000;
 vector<int> graph[vNum];
 vector<int> bridge[vNum];
 int low[vNum], dfn[vNum], vis[vNum];
+int childrenNum[vNum];
 
 int N = 0, M = 0;
 vector<Edge> edges;
@@ -62,6 +59,8 @@ void findBridge(int cur, int father, int dep){
 			}
 		}
 	}
+
+	vis[cur] = 2;
 }
 
 int main() {

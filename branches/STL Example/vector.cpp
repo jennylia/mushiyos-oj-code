@@ -1,6 +1,6 @@
 /*Filename: vector.cpp
  *Author: Mushiyo
- *Usage: Demostrate some manipulation of the vector class in STL
+ *Usage: Demonstrate some manipulation of the vector class in STL
  */
 
 #include <iostream>

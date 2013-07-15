@@ -18,6 +18,10 @@ Point island[75000];
 Point tmp[75000];
 
 bool compareLessX(const Point& p1, const Point& p2) {
+	if(p1.x == p2.x){
+		return p1.y > p2.y;
+	}
+
 	return p1.x < p2.x;
 }
 
@@ -26,7 +30,7 @@ bool compareGreaterY(const Point& p1, const Point& p2) {
 }
 
 // [head, end)
-int countPair(int head, int end) {
+long long countPair(int head, int end) {
 	//cout << "countPair( " << head << ", " << end << ")" << endl;
 
 	if (head >= end) {
@@ -51,7 +55,7 @@ int countPair(int head, int end) {
 		}
 	} else {
 		int middle = (head + end) / 2;
-		int pairL = 0, pairR = 0;
+		long long pairL = 0, pairR = 0;
 
 		if (middle - head > 1) {
 			pairL = countPair(head, middle);
@@ -63,7 +67,7 @@ int countPair(int head, int end) {
 
 		int lPtr = head;
 		int rPtr = middle;
-		int pairCross = 0;
+		long long pairCross = 0;
 
 		for (int i = head; i < end; ++i) {
 			if ((island[lPtr].y >= island[rPtr].y || rPtr >= end)

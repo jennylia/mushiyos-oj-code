@@ -1,6 +1,6 @@
 /*Filename: sortBySelfDefineCompare.cpp
  *Author: User
- *Usage: Demostrate how to sort by self-defined compare function
+ *Usage: Demonstrate how to sort by self-defined compare function
  */
 
 #include <iostream>
