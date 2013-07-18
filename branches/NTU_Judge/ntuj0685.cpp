@@ -112,8 +112,10 @@ void initialize(int N) {
 
 	for (int i = 0; i < N; ++i) {
 		graph[i].clear();
+		bridge[i].clear();
 		vis[i] = 0;
 		low[i] = 0;
+		dfn[i] = 0;
 		parent[i] = NO_PARENT;
 		childrenNum[i] = 0;
 	}
