@@ -106,6 +106,8 @@ void findBridge() {
 }
 
 void initialize(int N) {
+	edges.clear();
+
 	while (!dfsStack.empty()) {
 		dfsStack.pop();
 	}
