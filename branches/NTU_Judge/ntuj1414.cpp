@@ -1,3 +1,5 @@
+//WA
+
 /*Filename: ntuj1414.cpp
  *Author: Mushiyo
  */
