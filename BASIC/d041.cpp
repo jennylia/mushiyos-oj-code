@@ -4,41 +4,41 @@
 
 #include <stdio.h>
 #include <iostream>
-#include <vector>
 #include <algorithm>
 #include <cstring>
 
 using namespace std;
 
+//return if c1 < c2
 bool lexicographicalCmp(const char &c1, const char &c2) {
 	char lowerC1 = tolower(c1);
 	char lowerC2 = tolower(c2);
 
 	if (lowerC1 == lowerC2) {
-		if (c1 < 'a') { // c1 between A - Z
-			return false;
-		} else {
+		if (c1 >= 'a' && c2 < 'a') { // c1 between a - z, c2 between A - Z
 			return true;
+		} else {
+			return false;
 		}
-	} else {
-		return lowerC1 < lowerC2;
 	}
+
+	return lowerC1 < lowerC2;
 }
 
 int main() {
-	char cstr[100];
+	string s;
 
-	while (scanf("%s ", &cstr) == 1) {
-		int len = strlen(cstr);
+	while (getline(cin, s)) {
+		int len = s.size();
 
-/*		if(len == 0){
-//			printf("\n");
-//			continue;
-//		}
-*/
-		sort(cstr, cstr + len, lexicographicalCmp);
+		if (len == 0) {
+			printf("\n");
+			continue;
+		}
 
-		printf("%s\n", cstr);
+		sort(s.begin(), s.end(), lexicographicalCmp);
+
+		printf("%s\n", s.c_str());
 	}
 
 	return 0;
