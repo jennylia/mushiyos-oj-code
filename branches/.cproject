@@ -45,14 +45,15 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
-					<fileInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.330491879.1830947600" name="d044.cpp" rcbsApplicability="disable" resourcePath="JudgeUniversity/BASIC/d044.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.150291977.717325930">
-						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.150291977.717325930" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.150291977"/>
+					<fileInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.330491879.1717990630" name="aoj10011.cpp" rcbsApplicability="disable" resourcePath="AOJ/aoj10011.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.150291977.150791704">
+						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.150291977.150791704" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.150291977"/>
 					</fileInfo>
 					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="d044.cpp"/>
-						<entry excluding="poj1000.cpp|poj1657.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="POJ"/>
 						<entry excluding="CONTEST/a252.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="judgeHS"/>
-						<entry excluding="JudgeUniversity/BASIC/d044.cpp|STL_Example/priority_queue.cpp|d044.cpp|JudgeUniversity/BASIC/d048.cpp|JudgeUniversity/ProgramContest/d014.cpp|JudgeUniversity/BASIC/d074.cpp|JudgeUniversity/BASIC/d045.cpp|JudgeUniversity/BASIC/d041.cpp|JudgeUniversity/ProgramContest/d212.cpp|JudgeUniversity/ProgramContest/d211.cpp|JudgeUniversity/ProgramContest/d006.cpp|Data_Structure_&amp;_Algorithm/SieveOfEratosthenes.cpp|Data_Structure_&amp;_Algorithm/EdmondKarpMaxFlow.cpp|Data_Structure_&amp;_Algorithm/PrimMinmalSpanningTree.cpp|Data_Structure_&amp;_Algorithm/findBridgeWithAdjacencyList&amp;stack.cpp|Data_Structure_&amp;_Algorithm/DoublyLinkedList.cpp|Data_Structure_&amp;_Algorithm/dfsWithAdjacencyList&amp;stack.cpp|JudgeUniversity/BASIC/d073.cpp|JudgeUniversity/BASIC/d072.cpp|STL_Example/strtol.cpp|STL_Example/vector.cpp|STL_Example/sortBySelfDefinedCompare.cpp|STL_Example/limits.cpp|JudgeUniversity/BASIC/d040.cpp|JudgeUniversity/BASIC/d039.cpp|JudgeUniversity/BASIC/d036.cpp|NTU_Judge/ntuj1844.cpp|JudgeUniversity/BASIC/d043.cpp|JudgeUniversity/BASIC/d011.cpp|JudgeUniversity/BASIC/d001.cpp|NTU_Judge/ntuj1842.cpp|NTU_Judge/ntuj1840.cpp|NTU_Judge/B.cpp|NTU_Judge/D.cpp|NTU_Judge/ntuj1414.cpp|NTU_Judge/ntuj1342.cpp|NTU_Judge/ntuj0341.cpp|NTU_Judge/ntuj0349.cpp|NTU_Judge/ntuj0359.cpp|NTU_Judge/ntuj0660.cpp|NTU_Judge/ntuj0685.cpp|NTU_Judge/ntuj0713.cpp|NTU_Judge/ntuj0678.cpp|NTU_Judge/ntuj0659.cpp|NTU_Judge/ntuj0006.cpp|NTU_Judge/ntuj0001.cpp|132|CONTEST|JudgeUniversity/d043.cpp|NTU judge/ntuj0006.cpp|POJ|JudgeUniversity/d001.cpp|JudgeUniversity/d011.cpp|judgeHS|NTU judge/ntuj0001.cpp|NTU judge/ntuj0713.cpp|C++_Example|NTU judge/ntuj0685.cpp|APlusB|NTU judge/ntuj0678.cpp|NTU judge/ntuj0341.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="AOJ|JudgeUniversity/ProgramContest/d016.cpp|JudgeUniversity/ProgramContest/d007.cpp|JudgeUniversity/BASIC/d044.cpp|STL_Example/priority_queue.cpp|d044.cpp|JudgeUniversity/BASIC/d048.cpp|JudgeUniversity/ProgramContest/d014.cpp|JudgeUniversity/BASIC/d074.cpp|JudgeUniversity/BASIC/d045.cpp|JudgeUniversity/BASIC/d041.cpp|JudgeUniversity/ProgramContest/d212.cpp|JudgeUniversity/ProgramContest/d211.cpp|JudgeUniversity/ProgramContest/d006.cpp|Data_Structure_&amp;_Algorithm/SieveOfEratosthenes.cpp|Data_Structure_&amp;_Algorithm/EdmondKarpMaxFlow.cpp|Data_Structure_&amp;_Algorithm/PrimMinmalSpanningTree.cpp|Data_Structure_&amp;_Algorithm/findBridgeWithAdjacencyList&amp;stack.cpp|Data_Structure_&amp;_Algorithm/DoublyLinkedList.cpp|Data_Structure_&amp;_Algorithm/dfsWithAdjacencyList&amp;stack.cpp|JudgeUniversity/BASIC/d073.cpp|JudgeUniversity/BASIC/d072.cpp|STL_Example/strtol.cpp|STL_Example/vector.cpp|STL_Example/sortBySelfDefinedCompare.cpp|STL_Example/limits.cpp|JudgeUniversity/BASIC/d040.cpp|JudgeUniversity/BASIC/d039.cpp|JudgeUniversity/BASIC/d036.cpp|NTU_Judge/ntuj1844.cpp|JudgeUniversity/BASIC/d043.cpp|JudgeUniversity/BASIC/d011.cpp|JudgeUniversity/BASIC/d001.cpp|NTU_Judge/ntuj1842.cpp|NTU_Judge/ntuj1840.cpp|NTU_Judge/B.cpp|NTU_Judge/D.cpp|NTU_Judge/ntuj1414.cpp|NTU_Judge/ntuj1342.cpp|NTU_Judge/ntuj0341.cpp|NTU_Judge/ntuj0349.cpp|NTU_Judge/ntuj0359.cpp|NTU_Judge/ntuj0660.cpp|NTU_Judge/ntuj0685.cpp|NTU_Judge/ntuj0713.cpp|NTU_Judge/ntuj0678.cpp|NTU_Judge/ntuj0659.cpp|NTU_Judge/ntuj0006.cpp|NTU_Judge/ntuj0001.cpp|132|CONTEST|JudgeUniversity/d043.cpp|NTU judge/ntuj0006.cpp|POJ|JudgeUniversity/d001.cpp|JudgeUniversity/d011.cpp|judgeHS|NTU judge/ntuj0001.cpp|NTU judge/ntuj0713.cpp|C++_Example|NTU judge/ntuj0685.cpp|APlusB|NTU judge/ntuj0678.cpp|NTU judge/ntuj0341.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="poj1000.cpp|poj1657.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="POJ"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="d044.cpp"/>
+						<entry excluding="aoj10011.cpp|aoj10010.cpp|aoj10009.cpp|aoj10008.cpp|aoj10007.cpp|aoj10006.cpp|aoj10005.cpp|aoj10004.cpp|aoj10003.cpp|aoj10002.cpp|aoj10001.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="AOJ"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -99,9 +100,10 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry excluding="CONTEST" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="judgeHS"/>
-						<entry excluding="d044.cpp|132|CONTEST|judgeHS|C++_Example|Data_Structure_&amp;_Algorithm|STL_Example|APlusB|NTU_Judge|POJ" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="d044.cpp"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="POJ"/>
+						<entry excluding="AOJ|d044.cpp|132|CONTEST|judgeHS|C++_Example|Data_Structure_&amp;_Algorithm|STL_Example|APlusB|NTU_Judge|POJ" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="AOJ"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="d044.cpp"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
