@@ -45,15 +45,15 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
-					<fileInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.330491879.552329597" name="aoj0009.cpp" rcbsApplicability="disable" resourcePath="AOJ/ Volume_0/aoj0009.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.150291977.2094730814">
-						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.150291977.2094730814" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.150291977"/>
+					<fileInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.330491879.264643036" name="struct.cpp" rcbsApplicability="disable" resourcePath="C++_Example/struct.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.150291977.174130504">
+						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.150291977.174130504" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.150291977"/>
 					</fileInfo>
 					<sourceEntries>
-						<entry excluding="poj1000.cpp|poj1657.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="POJ"/>
-						<entry excluding="HDOJ|NTU_Judge/ntuj1871.cpp|JudgeUniversity/ProgramContest/d016.cpp|NTU_Judge/ntuj1861.cpp|NTU_Judge/ntuj1858.cpp|NTU_Judge/B.cpp|Data_Structure_&amp;_Algorithm/EdmondKarpMaxFlow.cpp|Data_Structure_&amp;_Algorithm/dfsWithAdjacencyList&amp;stack.cpp|STL_Example/priority_queue.cpp|Data_Structure_&amp;_Algorithm/PrimMinmalSpanningTree.cpp|JudgeUniversity/BASIC/d074.cpp|JudgeUniversity/ProgramContest/d007.cpp|JudgeUniversity/BASIC/d001.cpp|JudgeUniversity/d011.cpp|NTU_Judge/ntuj0713.cpp|NTU_Judge/ntuj1844.cpp|NTU judge/ntuj0713.cpp|JudgeUniversity/ProgramContest/d014.cpp|NTU judge/ntuj0678.cpp|NTU_Judge/ntuj0001.cpp|NTU_Judge/ntuj1842.cpp|JudgeUniversity/ProgramContest/d211.cpp|132|NTU_Judge/ntuj0659.cpp|JudgeUniversity/BASIC/d073.cpp|JudgeUniversity/BASIC/d044.cpp|STL_Example/sortBySelfDefinedCompare.cpp|JudgeUniversity/ProgramContest/d212.cpp|AOJ|NTU judge/ntuj0006.cpp|JudgeUniversity/BASIC/d072.cpp|JudgeUniversity/BASIC/d036.cpp|NTU judge/ntuj0001.cpp|NTU_Judge/D.cpp|STL_Example/strtol.cpp|C++_Example|Data_Structure_&amp;_Algorithm/DoublyLinkedList.cpp|Data_Structure_&amp;_Algorithm/findBridgeWithAdjacencyList&amp;stack.cpp|NTU judge/ntuj0341.cpp|NTU_Judge/ntuj0341.cpp|JudgeUniversity/BASIC/d041.cpp|JudgeUniversity/BASIC/d048.cpp|JudgeUniversity/d043.cpp|JudgeUniversity/BASIC/d039.cpp|NTU_Judge/ntuj0685.cpp|JudgeUniversity/BASIC/d011.cpp|POJ|JudgeUniversity/d001.cpp|NTU_Judge/ntuj0660.cpp|d044.cpp|Data_Structure_&amp;_Algorithm/SieveOfEratosthenes.cpp|APlusB|JudgeUniversity/ProgramContest/d006.cpp|CONTEST|JudgeUniversity/BASIC/d043.cpp|NTU_Judge/ntuj1414.cpp|NTU_Judge/ntuj1840.cpp|JudgeUniversity/BASIC/d040.cpp|STL_Example/vector.cpp|NTU_Judge/ntuj0006.cpp|NTU_Judge/ntuj0359.cpp|NTU_Judge/ntuj1342.cpp|NTU_Judge/ntuj0678.cpp|NTU_Judge/ntuj0349.cpp|judgeHS|NTU judge/ntuj0685.cpp|STL_Example/limits.cpp|JudgeUniversity/BASIC/d045.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry excluding="CONTEST/a252.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="judgeHS"/>
-						<entry excluding="ACM_Steps/1.2.1.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="HDOJ"/>
+						<entry excluding="C++_Example/struct.cpp|JudgeUniversity/ProgramContest/d018.cpp|JudgeUniversity/ProgramContest/d016.cpp|HDOJ|NTU_Judge/ntuj1871.cpp|NTU_Judge/ntuj1861.cpp|NTU_Judge/ntuj1858.cpp|NTU_Judge/B.cpp|Data_Structure_&amp;_Algorithm/EdmondKarpMaxFlow.cpp|Data_Structure_&amp;_Algorithm/dfsWithAdjacencyList&amp;stack.cpp|STL_Example/priority_queue.cpp|Data_Structure_&amp;_Algorithm/PrimMinmalSpanningTree.cpp|JudgeUniversity/BASIC/d074.cpp|JudgeUniversity/ProgramContest/d007.cpp|JudgeUniversity/BASIC/d001.cpp|JudgeUniversity/d011.cpp|NTU_Judge/ntuj0713.cpp|NTU_Judge/ntuj1844.cpp|NTU judge/ntuj0713.cpp|JudgeUniversity/ProgramContest/d014.cpp|NTU judge/ntuj0678.cpp|NTU_Judge/ntuj0001.cpp|NTU_Judge/ntuj1842.cpp|JudgeUniversity/ProgramContest/d211.cpp|132|NTU_Judge/ntuj0659.cpp|JudgeUniversity/BASIC/d073.cpp|JudgeUniversity/BASIC/d044.cpp|STL_Example/sortBySelfDefinedCompare.cpp|JudgeUniversity/ProgramContest/d212.cpp|AOJ|NTU judge/ntuj0006.cpp|JudgeUniversity/BASIC/d072.cpp|JudgeUniversity/BASIC/d036.cpp|NTU judge/ntuj0001.cpp|NTU_Judge/D.cpp|STL_Example/strtol.cpp|Data_Structure_&amp;_Algorithm/DoublyLinkedList.cpp|Data_Structure_&amp;_Algorithm/findBridgeWithAdjacencyList&amp;stack.cpp|NTU judge/ntuj0341.cpp|NTU_Judge/ntuj0341.cpp|JudgeUniversity/BASIC/d041.cpp|JudgeUniversity/BASIC/d048.cpp|JudgeUniversity/d043.cpp|JudgeUniversity/BASIC/d039.cpp|NTU_Judge/ntuj0685.cpp|JudgeUniversity/BASIC/d011.cpp|POJ|JudgeUniversity/d001.cpp|NTU_Judge/ntuj0660.cpp|d044.cpp|Data_Structure_&amp;_Algorithm/SieveOfEratosthenes.cpp|APlusB|JudgeUniversity/ProgramContest/d006.cpp|CONTEST|JudgeUniversity/BASIC/d043.cpp|NTU_Judge/ntuj1414.cpp|NTU_Judge/ntuj1840.cpp|JudgeUniversity/BASIC/d040.cpp|STL_Example/vector.cpp|NTU_Judge/ntuj0006.cpp|NTU_Judge/ntuj0359.cpp|NTU_Judge/ntuj1342.cpp|NTU_Judge/ntuj0678.cpp|NTU_Judge/ntuj0349.cpp|judgeHS|NTU judge/ntuj0685.cpp|STL_Example/limits.cpp|JudgeUniversity/BASIC/d045.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 						<entry excluding=" Volume_0/aoj0009.cpp| Volume_0/aoj0003.cpp| Volume_0/aoj0022.cpp| Volume_0/aoj0014.cpp|Volume_13/aoj1330.cpp|Volume_100/aoj10008.cpp|Volume_100/aoj10006.cpp|aoj10010.cpp|aoj10013.cpp|Volume_100/aoj10004.cpp|Volume_100/aoj10002.cpp|aoj10001.cpp| Volume_0/aoj0006.cpp|Volume_100/aoj10010.cpp|Volume_100/aoj10003.cpp|Volume_100/aoj10005.cpp|aoj10005.cpp|Volume_100/aoj10009.cpp|aoj10006.cpp|Volume_100/aoj10001.cpp|Volume_100/aoj10013.cpp| Volume_10/aoj1000.cpp|Volume_100/aoj10016.cpp|Volume_100/aoj10007.cpp|aoj10012.cpp|aoj10002.cpp|Volume_100/aoj10011.cpp|aoj10009.cpp|aoj10004.cpp|Volume_100/aoj10012.cpp| Volume_0/aoj0020.cpp|aoj10016.cpp|aoj10008.cpp|aoj10011.cpp|aoj10014.cpp|aoj10007.cpp|aoj10003.cpp|Volume_100/aoj10014.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="AOJ"/>
+						<entry excluding="hdoj4585.cpp|hdoj4584.cpp|hdoj4576.cpp|I.cpp|J.cpp|ACM_Steps/1.2.1.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="HDOJ"/>
+						<entry excluding="poj1000.cpp|poj1657.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="POJ"/>
+						<entry excluding="CONTEST/a252.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="judgeHS"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -113,8 +113,13 @@
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="OJ_in_C.cdt.managedbuild.target.gnu.mingw.exe.627962357" name="Executable" projectType="cdt.managedbuild.target.gnu.mingw.exe"/>
 	</storageModule>
-	<storageModule moduleId="refreshScope" versionNumber="1">
-		<resource resourceType="PROJECT" workspacePath="/OJ_in_C"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/OJ_in_C"/>
+		</configuration>
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/OJ_in_C"/>
+		</configuration>
 	</storageModule>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
@@ -132,4 +137,5 @@
 		</scannerConfigBuildInfo>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 </cproject>
