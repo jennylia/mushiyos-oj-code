@@ -20,7 +20,8 @@ double countDist(Point p1, Point p2) {
 	return sqrt(xDist * xDist + yDist * yDist);
 }
 
-Point getCircumCircleCenter(Point p1, Point p2, Point p3) {
+// find the circumcenter by finding the intersection of the perpendicular bisectors.
+Point getCircumcenter (Point p1, Point p2, Point p3) {
 	Point bias = p1;
 
 	// a, b & c for ax + by = c
@@ -59,7 +60,7 @@ int main() {
 			Point a, b, c;
 			cin >> a.x >> a.y >> b.x >> b.y >> c.x >> c.y;
 
-			Point center = getCircumCircleCenter(a, b, c);
+			Point center = getCircumcenter(a, b, c);
 			double radius = countDist(center, a);
 
 			printf("%.3f %.3f %.3f\n", center.x, center.y, radius);
