@@ -1,4 +1,4 @@
-/*Filename: la6047.cpp
+/*Filename: ntuj1977.cpp
  *Author: Mushiyo
  */
 
@@ -61,3 +61,4 @@ int main() {
 
 	return 0;
 }
+
