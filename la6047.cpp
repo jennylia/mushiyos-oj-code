@@ -31,9 +31,6 @@ int main() {
 			int N = 0;
 			scanf("%d ", &N);
 
-//			char c;
-//			scanf("%c", & );
-
 			string words[N];
 			char tmp[500];
 			for (int i = 0; i < N; ++i) {
