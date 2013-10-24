@@ -3,7 +3,8 @@
  */
 
 #include <iostream>
-#include <set>
+#include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -17,33 +18,39 @@ int main(){
 	int n = 0;
 
     while(cin >> n){
-        while(n > 0){
+        for(int i = 0; i < n; ++i){
         	int size = 0;
         	cin >> size;
 
-        	set<int> cPlusD;
+        	vector<int> cPlusD;
         	for(int i = 0; i < size; ++i){
         		cin >> A[i] >> B[i] >> C[i] >> D[i];
         	}
 
         	for(int i = 0; i < size; ++i){
         		for(int j = 0; j < size; ++j){
-        			cPlusD.insert(-(C[i] + D[j]));
+        			cPlusD.push_back(-(C[i] + D[j]));
         		}
         	}
+
+        	sort(cPlusD.begin(), cPlusD.end());
 
         	int countSum0 = 0;
         	for(int i = 0; i < size; ++i){
         		for(int j = 0; j < size; ++j){
-        			if(cPlusD.find(A[i] + B[j]) != cPlusD.end()){
-        				++countSum0;
+        			if(binary_search(cPlusD.begin(), cPlusD.end(), A[i] + B[j])){
+        				countSum0 += upper_bound(cPlusD.begin(), cPlusD.end(), A[i] + B[j])
+        							- lower_bound(cPlusD.begin(), cPlusD.end(), A[i] + B[j]);
         			}
         		}
         	}
 
-        	cout << countSum0 << endl;
+    		cout << countSum0 << endl;
 
-        	--n;
+        	if(i != n - 1){
+        		cout << endl;
+        	}
+
         }
     }
 
