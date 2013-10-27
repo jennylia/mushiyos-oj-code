@@ -18,15 +18,15 @@ int main(){
 	int n = 0;
 
     while(cin >> n){
-        for(int i = 0; i < n; ++i){
+        for(int caseNum = 1; caseNum <= n; ++caseNum){
         	int size = 0;
         	cin >> size;
 
-        	vector<int> cPlusD;
         	for(int i = 0; i < size; ++i){
         		cin >> A[i] >> B[i] >> C[i] >> D[i];
         	}
 
+        	vector<int> cPlusD;
         	for(int i = 0; i < size; ++i){
         		for(int j = 0; j < size; ++j){
         			cPlusD.push_back(-(C[i] + D[j]));
@@ -47,7 +47,7 @@ int main(){
 
     		cout << countSum0 << endl;
 
-        	if(i != n - 1){
+        	if(caseNum != n){
         		cout << endl;
         	}
 
