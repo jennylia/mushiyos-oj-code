@@ -78,8 +78,6 @@ int main() {
 			}
 		}
 
-		//printGraph();
-
 		primMST();
 
 		cout << cost << endl;
