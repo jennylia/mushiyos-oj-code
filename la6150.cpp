@@ -1,6 +1,7 @@
 /*Filename: la6150.cpp
  *Author: Mushiyo
  */
+
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
@@ -29,8 +30,6 @@ int main() {
 			if (s == "E-N-D") {
 				break;
 			}
-
-			//cout << str << endl;
 
 			if (len > maxLen) {
 				maxLen = len;
