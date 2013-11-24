@@ -17,27 +17,26 @@ const int NO_COLOR = 0;
 
 int n = 0;
 
-void init(){
+void init() {
 	memset(color, NO_COLOR, sizeof(color));
 
-	for(int i = 0; i < n; ++i){
+	for (int i = 0; i < n; ++i) {
 		graph[i].clear();
 	}
 }
 
-bool dfs(int node, int c){
+bool dfs(int node, int c) {
 	color[node] = c;
 
-	for(int i = 0; i < graph[node].size(); ++i){
+	for (int i = 0; i < graph[node].size(); ++i) {
 		int neighbor = graph[node][i];
 
-		if(color[neighbor] == c){
+		if (color[neighbor] == c) {
 			return false;
-		}
-		else if(color[neighbor] == NO_COLOR){
+		} else if (color[neighbor] == NO_COLOR) {
 			bool isBicolorable = dfs(neighbor, -c);
 
-			if(isBicolorable == false){
+			if (isBicolorable == false) {
 				return false;
 			}
 		}
@@ -46,40 +45,39 @@ bool dfs(int node, int c){
 	return true;
 }
 
-int main(){
+int main() {
 
-    while(cin >> n){
-    	if(n == 0){
-    		break;
-    	}
+	while (cin >> n) {
+		if (n == 0) {
+			break;
+		}
 
-    	init();
+		init();
 
-        int l = 0;
-        cin >> l;
+		int l = 0;
+		cin >> l;
 
-        for(int i = 0; i < l; ++i){
-        	int u = 0, v = 0;
-        	cin >> u >> v;
+		for (int i = 0; i < l; ++i) {
+			int u = 0, v = 0;
+			cin >> u >> v;
 
-        	graph[u].push_back(v);
-        	graph[v].push_back(u);
-        }
+			graph[u].push_back(v);
+			graph[v].push_back(u);
+		}
 
-        bool isBicolorable = true;
-        for(int i = 0; i < n && isBicolorable; ++i){
-        	if(color[i] == NO_COLOR){
-        		isBicolorable = dfs(i, RED);
-        	}
-        }
+		bool isBicolorable = true;
+		for (int i = 0; i < n && isBicolorable; ++i) {
+			if (color[i] == NO_COLOR) {
+				isBicolorable = dfs(i, RED);
+			}
+		}
 
-        if(isBicolorable){
-        	cout << "BICOLORABLE." << endl;
-        }
-        else{
-        	cout << "NOT BICOLORABLE." << endl;
-        }
-    }
+		if (isBicolorable) {
+			cout << "BICOLORABLE." << endl;
+		} else {
+			cout << "NOT BICOLORABLE." << endl;
+		}
+	}
 
 	return 0;
 }
