@@ -1,3 +1,7 @@
+/*Filename: class.cpp
+ *Author: Mushiyo
+ */
+
 /*Filename: struct.cpp
  *Author: Mushiyo
  *Usage: Demonstrate how to manipulate the struct data type
@@ -8,14 +12,25 @@
 
 using namespace std;
 
-struct Point {
+class Point {
+public:
 	int x;
 	int y;
+
+	Point(int x, int y) {
+		this->x = x;
+		this->y = y;
+	}
+
+	Point() {
+		x = 0;
+		y = 0;
+	}
 };
 
 int main() {
 
-	Point p1 = { 3, 4 };
+	Point p1(3, 4);
 	Point p2;
 	p2.x = p1.y;
 	p2.y = p1.x;
@@ -28,7 +43,7 @@ int main() {
 	queue<Point> q;
 	for (int i = 0; i < 2; ++i) {
 		for (int j = 0; j < 2; ++j) {
-			q.push((Point ) { i, j });
+			q.push(Point(i, j));
 		}
 	}
 
