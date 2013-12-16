@@ -1,4 +1,4 @@
-/*Filename: t1786.cpp
+/*Filename: timus1786.cpp
  *Author: Mushiyo
  */
 

@@ -1,4 +1,4 @@
-/*Filename: u1152.cpp
+/*Filename: uva1152.cpp
  *Author: Mushiyo
  */
 
