@@ -8,7 +8,7 @@
 
 using namespace std;
 
-const int size = 100000 + 1;
+const int size = 20000000 + 1;
 bool isPrime[size];
 vector<int> prime;
 
@@ -41,6 +41,7 @@ int main() {
 	for (int i = 0; i < prime.size(); ++i) {
 		cout << prime[i] << endl;
 	}
+	cout << prime.size() << endl;
 
 	return 0;
 }
